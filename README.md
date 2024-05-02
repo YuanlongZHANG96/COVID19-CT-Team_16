@@ -51,6 +51,7 @@ If you want to review the code and check the immediate output for the steps, ple
 ## Pre-trained Models
 - You can download pre-trained models here:
 - https://drive.google.com/uc?id=1vGOnn_KPy9InVgGdymivurewcWIK5f0X
+  
 ***Note*** The notebook will automatically download the pre-trained model for testing and evaluation purposes.
 
 ## Results
