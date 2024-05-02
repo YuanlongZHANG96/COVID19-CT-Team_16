@@ -48,7 +48,23 @@ If you want to review the code and check the immediate output for the steps, ple
 - For Model Training, please refer to **Methodology**, **V. Training**,  **iv. Training code**.
 - For Model Evaluation, please note we use the ***pre-trained*** model. Please refer to **Methodology**, **VI. Evaluations**, **ii. Evaluation Code**.
 
+## Pre-trained Models
+- You can download pre-trained models here:
+- https://drive.google.com/uc?id=1vGOnn_KPy9InVgGdymivurewcWIK5f0X
+***Note*** The notebook will automatically download the pre-trained model for testing and evaluation purposes.
 
+## Results
+The performance metrics achieved for reproducing the model are as follows:
+
+| Model Description       | AUC  | Accuracy |
+|-------------------------|------|----------|
+| Our Reproduced Code*    | 0.93 | 0.90     |
+| Model from the Paper    | 0.90 | 0.86     |
+
+Note that our reproduced model performs better than the measures in the paper.
+
+**Note:**
+* *We use the pre-trained model (see previous section) to accelerate the process.*
 
 ## Contributions
 
@@ -57,10 +73,6 @@ Contributions to this project are welcome. Please follow the standard GitHub pul
 - Fork the repository.
 - Make your changes.
 - Submit a pull request.
-
-## License
-
-This project is licensed under the terms of the MIT license.
 
 ## Acknowledgments
 
