@@ -6,12 +6,12 @@ This repository contains a Jupyter Notebook that demonstrates the classification
 
 ## Quickstart
 
-1. Open the `DL4H_Team_16.ipynb` notebook in Google Colab.
+1. Open the `DL4H_Team_16.ipynb` notebook in **Google Colab**.
 2. To execute all cells, Click "Run All" in the Runtime menu.
 3. The entire process should be completed in approximately 8 minutes.
 
 ## Features
-- Provide `demo_mode` to run a subset in a shorter time.
+- Provide `demo_mode` to run a subset in a shorter time (Within 8 minutes in Google Colab).
 - Preprocessed datasets for COVID/non-COVID cases.
 - Pretrained model checkpoint for quick validation.
 - The entire workflow is contained within a single notebook for ease of use.
@@ -20,22 +20,32 @@ This repository contains a Jupyter Notebook that demonstrates the classification
 
 - A Google Colab account.
 - No external packages are required as all dependencies are handled by the notebook.
+- Here's the common hardware specifications in Google Colab:
+### 1. CPU Specifications:
+- 2 x Intel(R) Xeon(R) CPU @ 2.30GHz
+- Single core with 2 threads per CPU
 
-## Usage
+### 2. GPU Specifications:
+- NVIDIA Tesla T4
+- 15 GB memory available
 
-The notebook is structured to provide a streamlined experience:
+## Overall Workflow
+
+The notebook is structured to provide a streamlined experience with*** a single click "Run All"***, you will get:
 
 - **Data Loading**: The dataset is automatically loaded and preprocessed.
 - **Model Training**: A deep learning model is trained to classify CT scans.
 - **Evaluation**: The trained model is evaluated to assess its performance.
 
-## Results
+## Data Loading & Model Training & Evaluation
+As mentioned before, when you click "run all," all the steps will be automatically executed without interference.
+<be>
+If you want to review the code and check the immediate output for the steps, please do the following:
+- For data Loading, please refer to **Methodology**, **III. Data**, **iii. Preprocessing Code & Command and Further Descriptions**.
+- For Model Training, please refer to **Methodology**, **V. Training**,  **iv. Training code**.
+- For Model Evaluation, please note we use the ***pre-trained*** model. Please refer to **Methodology**, **VI. Evaluations**, **ii. Evaluation Code**.
 
-Upon completion, the notebook will display:
 
-- Training and validation loss and accuracy graphs.
-- Visualization of model predictions on test data.
-- Further discussion and ablation experiments.
 
 ## Contributions
 
